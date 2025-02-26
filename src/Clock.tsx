@@ -35,7 +35,6 @@ export class Clock extends React.Component<ClockProps> {
     return (
       <div className="Clock">
         <strong className="Clock__name">{this.props.name}</strong>
-        {' time is '}
         <span className="Clock__time">{this.state.today}</span>
       </div>
     );
